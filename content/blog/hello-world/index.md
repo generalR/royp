@@ -1,6 +1,8 @@
 ---
-title: Hello World
-date: "2015-05-01T22:12:03.284Z"
+title: 'Bilvården'
+subtitle: 'Priming i kombination med användartester'
+date: '2017-05-01'
+image: 'bilvarden.png'
 ---
 
 This is my first post on my new fake blog! How exciting!
