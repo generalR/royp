@@ -1,6 +1,6 @@
 exports.onRouteUpdate = () => {
-  //require('./src/styles/global.scss')
-  //require('./src/styles/normalize.css')
+  require('./src/styles/global.scss')
+  require('./src/styles/normalize.css')
 
   // require('./src/styles/bootstrap.min.css')
 

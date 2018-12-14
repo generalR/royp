@@ -1,3 +1,5 @@
+{
+  /**
 import Typography from 'typography'
 import Wordpress2016 from 'typography-theme-wordpress-2016'
 
@@ -19,3 +21,5 @@ if (process.env.NODE_ENV !== 'production') {
 export default typography
 export const rhythm = typography.rhythm
 export const scale = typography.scale
+ */
+}
