@@ -4,7 +4,7 @@ exports.onRouteUpdate = () => {
 
   // require('./src/styles/bootstrap.min.css')
 
-  //require('./src/styles/flexboxgrid.css')
+  require('./src/styles/flexboxgrid.css')
   //require('./src/styles/flexboxgrid.css')
 
   /* skulle ev. kunna lägga jquery koden här för att på varje onRouteUpdate
