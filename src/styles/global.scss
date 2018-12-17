@@ -650,10 +650,6 @@ header {
     left: 12%;
   }
 
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (max-width: 1200px) {
-  }
-
   /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
   @media screen and (max-height: 450px) {
     .overlay a {
