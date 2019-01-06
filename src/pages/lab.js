@@ -50,34 +50,29 @@ class BlogIndex extends React.Component {
             </div>
           </div>
 
-          <section className="post-list row">
+          <section className="post-list">
             {posts.map(({ node }) => {
               const title = get(node, 'frontmatter.title') || node.fields.slug
               return (
-                <article
-                  className="lab-post col-xs-12 col-sm-12 col-md-12 col-lg-12"
-                  key={node.fields.slug}
-                >
-                  <Link to={node.fields.slug}>
-                    <Img
-                      className="eq"
-                      fluid={node.frontmatter.image.childImageSharp.fluid}
-                    />
-
-                    <div className="card">
-                      <div className="card-content">
-                        {/*  <h3>
-                        <Link to={node.fields.slug}>{title}</Link>
-                      </h3>
-                      <small>{node.frontmatter.date}</small> */}
-
-                        <h1
+                <article className="" key={node.fields.slug}>
+                  <Link className="row post-lab" to={node.fields.slug}>
+                    <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                      <div className="card-content2">
+                        <span>{node.frontmatter.case}</span>
+                        <h2
                           dangerouslySetInnerHTML={{
                             __html: title,
                           }}
                         />
-                        <h2>{node.frontmatter.subtitle}</h2>
+                        <h4>{node.frontmatter.subtitle}</h4>
                       </div>
+                    </div>
+
+                    <div className="first-xs last-sm last-lg col-xs-12 col-sm-8 col-md-8 col-lg-8">
+                      <Img
+                        className="eq"
+                        fluid={node.frontmatter.image.childImageSharp.fluid}
+                      />
                     </div>
                   </Link>
                 </article>
@@ -135,9 +130,10 @@ export const pageQuery = graphql`
             date(formatString: "DD MMMM, YYYY")
             title
             subtitle
+            case
             image {
               childImageSharp {
-                fluid(maxWidth: 1280, grayscale: true) {
+                fluid(maxWidth: 1280) {
                   ...GatsbyImageSharpFluid
                 }
               }

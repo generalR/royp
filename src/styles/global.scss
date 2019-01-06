@@ -12,6 +12,34 @@ body {
   color: #111111;
   background: #f7f7f7;
 }
+.card-content2 {
+  position: relative;
+  margin-bottom: 100px;
+  padding-right: 7px;
+  height: 100%;
+
+  h2 {
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+  }
+  h4 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+  }
+  span {
+    font-size: 16px;
+    opacity: 0.7;
+    margin-bottom: 20px;
+    display: inline-block;
+    letter-spacing: 0.8px;
+  }
+}
 
 p {
   font-weight: 300;
@@ -30,6 +58,10 @@ h2 {
 }
 h3 {
   font-size: 21px;
+  font-weight: 300;
+}
+h4 {
+  font-size: 18px;
   font-weight: 300;
 }
 
@@ -198,19 +230,30 @@ header {
   .lab-post {
     width: 500px;
     margin-bottom: 100px;
-    picture {
-      img {
-        flex: 1;
-        // object-fit: contain;
+  }
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+}
+
+.post-list {
+  .post-lab {
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+    border-bottom: 1px #dddfdf solid;
+    .card-content2 {
+      h1 {
+        font-size: 20px;
       }
     }
-
     a {
       text-decoration: none;
       color: #000;
     }
   }
 }
+
 /* Card style*/
 .card {
   position: relative;
@@ -432,6 +475,39 @@ header {
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
+  .post-lab {
+    .gatsby-image-wrapper {
+      max-height: 300px;
+    }
+  }
+  .card-content2 {
+    position: relative;
+    margin-bottom: 50px;
+    padding-right: 7px;
+    height: 100%;
+
+    h2 {
+      font-size: 20px;
+      margin: 0;
+      padding: 0;
+      line-height: 1.4;
+    }
+    h4 {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      margin: 0;
+      font-size: 14px;
+      letter-spacing: 0.8px;
+    }
+    span {
+      font-size: 13px;
+      opacity: 0.7;
+      margin-bottom: 20px;
+      display: inline-block;
+      letter-spacing: 0.8px;
+    }
+  }
   .cv-description-wrapper {
     margin-left: 0;
   }
@@ -630,6 +706,36 @@ header {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
+  .post-lab {
+    .gatsby-image-wrapper {
+      max-height: 300px;
+    }
+  }
+  .card-content2 {
+    span {
+      font-size: 13px;
+      opacity: 0.7;
+      margin-top: 15px;
+      margin-bottom: 10px;
+      display: inline-block;
+      letter-spacing: 0.8px;
+    }
+    h2 {
+      font-size: 20px;
+      margin: 0;
+      padding: 0;
+      line-height: 1.4;
+    }
+    h4 {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      margin: 0;
+      font-size: 14px;
+      letter-spacing: 0.8px;
+    }
+  }
+
   .post article .post_content .label-container {
     margin-left: 0;
   }

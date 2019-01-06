@@ -1,8 +1,9 @@
 ---
-title: 'Spot'
-subtitle: 'Använder du också google för att hinna nya platser att träna på?'
+title: 'Att Utforska och testa ett nytt designkoncept'
+subtitle: 'Hitta en plats att träna på'
 date: '2015-08-01T22:12:03.284Z'
 image: 'spot.png'
+case: 'Designsprint'
 ---
 
 <div class="label-container">

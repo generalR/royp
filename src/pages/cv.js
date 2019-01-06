@@ -112,12 +112,6 @@ class Cv extends React.Component {
                       prototyping och användartester.
                     </p>
                   </div>
-                  <div className="cv-description-wrapper">
-                    <h2 className="label-1">Verktyg</h2>
-
-                    <h3>Jag jobbar med </h3>
-                    <p>- Adobe XD - Figma -</p>
-                  </div>
                 </div>
               </div>
             </article>

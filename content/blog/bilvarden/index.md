@@ -1,8 +1,9 @@
 ---
-title: 'Bilvården'
-subtitle: 'Priming i kombination med användartester'
+title: 'Psykologins priming i kombination med användartester'
+subtitle: 'Pilottest'
 date: '2017-05-01'
 image: 'bilvarden.png'
+case: 'Forskningsrapport'
 ---
 
 <div class="label-container">
