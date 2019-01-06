@@ -27,15 +27,15 @@ class BlogPostTemplate extends React.Component {
             <ul className="row">
               <li className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                 <p className="type-of-case-label">Case</p>
-                <p className="case-info-label">Test</p>
+                <p className="case-info-label">Pilottest</p>
               </li>
               <li className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                <p className="type-of-case-label">Service</p>
-                <p className="case-info-label">Test</p>
+                <p className="type-of-case-label">Resultat</p>
+                <p className="case-info-label">Forskningsrapport</p>
               </li>
               <li className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                 <p className="type-of-case-label">Webbplatsen</p>
-                <p className="case-info-label">Test</p>
+                <p className="case-info-label">Prototyp</p>
               </li>
             </ul>
           </div>
@@ -49,7 +49,7 @@ class BlogPostTemplate extends React.Component {
                 <div className="hero_arrow_wrap" />
               </div>
               <article className="row center-xs end-md center-lg">
-                <div className="col-xs-12 col-sm-12 col-md-8 col-lg-offset-3">
+                <div className="col-xs-12 col-sm-12 col-md-8 ">
                   <p className="article-intro">
                     {post.frontmatter.description}
                   </p>

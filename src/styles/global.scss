@@ -273,21 +273,11 @@ header {
   }
   .post-card {
     position: relative;
-    left: -210px;
+    left: -175px;
     top: -50px;
-    /*
-    width: 60%;
-    max-width: auto;
-    min-height: 100px;
-    //width: 60%;
-    padding-right: 5%;
-    padding-top: 10px;
-    */
     background: #f7f7f7;
     text-align: left;
-
     padding: 10px 32px 32px 0;
-    /* margin-left: 32px; */
     margin-top: -64px;
     margin-bottom: 32px;
     width: 73%;
@@ -311,7 +301,7 @@ header {
   article {
     .post_content {
       text-align: left;
-      margin-right: 100px;
+      // margin-left: 100px;
       position: relative;
       h3 {
         font-size: 20px;
@@ -325,6 +315,7 @@ header {
       .label-container {
         //  outline: 3px solid red;
         margin-bottom: 100px;
+        margin-left: 100px;
       }
 
       .post-container {
@@ -338,7 +329,7 @@ header {
       .label-5,
       .label-6 {
         position: absolute;
-        left: -210px;
+        left: -175px;
         margin: 0;
       }
       .gatsby-resp-image-wrapper {
@@ -353,28 +344,36 @@ header {
     }
   }
 }
+
 .mail-adress-mobile {
   display: none;
 }
 .cv-label-container {
+  .label-1 {
+    position: absolute;
+    left: -108px;
+    margin: 0;
+  }
   position: relative;
   margin-left: 110px;
   p {
     max-width: 650px;
   }
 }
-.label-1 {
-  position: absolute;
-  left: -210px;
-  margin: 0;
-}
+
 .cv-description-wrapper {
   margin-bottom: 100px;
+  margin-left: 100px;
+  .cv-description {
+    margin-bottom: 50px;
+  }
   .role-description {
     font-size: 14px;
     font-weight: 300;
     color: #606e78;
     letter-spacing: 0.7px;
+  }
+  h2 {
   }
   h2,
   h3 {
@@ -426,8 +425,27 @@ header {
   }
 }
 
+@media only screen and (max-width: 1400px) {
+  .container {
+    padding-left: 100px;
+  }
+}
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
+  .cv-description-wrapper {
+    margin-left: 0;
+  }
+  .cv-label-container {
+    margin-left: 0;
+    .label-1 {
+      position: static;
+      margin-bottom: 20px;
+    }
+  }
+
+  .container {
+    padding-left: 0;
+  }
   .post article .post_content .label-container {
     margin-bottom: 70px;
   }
@@ -612,6 +630,10 @@ header {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
+  .post article .post_content .label-1 {
+    position: static;
+    //outline: 1px solid blue;
+  }
   .post {
     .post-card {
       width: 100%;
@@ -630,22 +652,7 @@ header {
         position: static;
       }
     }
-
-    article {
-      .post_content {
-        .label-1,
-        .label-2,
-        .label-3,
-        .label-4,
-        .label-5,
-        .label-6 {
-          position: static;
-          //outline: 1px solid blue;
-        }
-      }
-    }
   }
-
   .hero_arrow_wrap {
     left: 12%;
   }

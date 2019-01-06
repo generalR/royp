@@ -25,11 +25,11 @@ class Cv extends React.Component {
 
               <div className="post_content">
                 <div className="cv-label-container">
-                  <p className="label-1">Erfarenhet</p>
+                  <h2 className="label-1">Erfarenhet</h2>
                   <div className="cv-description-wrapper">
                     <div className="cv-description">
-                      <h2>Idag</h2>
-                      <h3>Ux-design och webbutveckling</h3>
+                      <h3>Idag</h3>
+
                       <small className="role-description">
                         2018 - Pågående
                       </small>
@@ -55,7 +55,7 @@ class Cv extends React.Component {
                     </div>
 
                     <div className="cv-description">
-                      <h2>2Conciliate</h2>
+                      <h3>2Conciliate</h3>
                       <small className="role-description">
                         Interaktionsdesigner. Jun 2017 - Aug 2017
                       </small>
@@ -71,7 +71,7 @@ class Cv extends React.Component {
                     </div>
 
                     <div className="cv-description">
-                      <h2>Soleil It</h2>
+                      <h3>Soleil It</h3>
                       <small className="role-description">
                         Webbutvecklare. Apr 2016 - Jun 2016
                       </small>
@@ -84,9 +84,9 @@ class Cv extends React.Component {
                   </div>
 
                   <div className="cv-description-wrapper">
-                    <p className="label-1">Utbildning</p>
+                    <h2 className="label-1">Utbildning</h2>
                     <div className="cv-description">
-                      <h2>Magister i Interaktionsdesign </h2>
+                      <h3>Magister i Interaktionsdesign </h3>
                       <small className="role-description">
                         Karlstad Universitet. Jan 2017 - paus.
                       </small>
@@ -95,26 +95,27 @@ class Cv extends React.Component {
                         kunskaper i digital produktutveckling, med särskilt
                         fokus på interaktionsdesign. Jag har bland annat läst
                         Co-Design - User Centered Design - Design Thinking.
+                        Bland annat används mina texter i undervisningen på
+                        Karlstad Universitet och jag fick rekommendationer om
+                        att skriva populärvetenskapliga artiklar av min lärare.
                       </p>
                     </div>
 
-                    <div className="cv-description-wrapper">
-                      <h2>Kandidat i informatik</h2>
-                      <small className="role-description">
-                        Karlstad Universitet. Aug 2012 - Dec 2015.
-                      </small>
-                      <p>
-                        {' '}
-                        Ett program innehållande webbprogrammering, Java och
-                        android kombinerat med It-projekt, interaktionsdesign,
-                        prototyping och användartester.
-                      </p>
-                    </div>
+                    <h3>Kandidat i informatik</h3>
+                    <small className="role-description">
+                      Karlstad Universitet. Aug 2012 - Dec 2015.
+                    </small>
+                    <p>
+                      {' '}
+                      Ett program innehållande webbprogrammering, Java och
+                      android kombinerat med It-projekt, interaktionsdesign,
+                      prototyping och användartester.
+                    </p>
                   </div>
                   <div className="cv-description-wrapper">
-                    <p className="label-1">Verktyg</p>
+                    <h2 className="label-1">Verktyg</h2>
 
-                    <h2>Jag jobbar med </h2>
+                    <h3>Jag jobbar med </h3>
                     <p>- Adobe XD - Figma -</p>
                   </div>
                 </div>

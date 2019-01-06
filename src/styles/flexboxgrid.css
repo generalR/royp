@@ -209,8 +209,9 @@
 }
 @media only screen and (min-width: 48em) {
   .container {
-    width: 768px;
+    /*width: 768px;
     padding-left: 100px;
+    */
   }
   .col-sm,
   .col-sm-1,
@@ -389,7 +390,7 @@
 }
 @media only screen and (min-width: 62em) {
   .container {
-    width: 992px;
+    /*width: 992px;*/
   }
   .col-md,
   .col-md-1,
@@ -568,7 +569,7 @@
 }
 @media only screen and (min-width: 75em) {
   .container {
-    max-width: 1200px;
+    /* max-width: 1200px; */
   }
   .col-lg,
   .col-lg-1,
