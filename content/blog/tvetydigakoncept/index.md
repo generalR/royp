@@ -4,6 +4,8 @@ subtitle: 'Mobile First And Responsive Design'
 date: '2015-07-28T22:40:32.169Z'
 image: 'tve.png'
 case: 'Debattartikel'
+resultat: ''
+webbplatsen: ''
 ---
 
 <p class="label-2">Case</p>

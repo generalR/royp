@@ -1,9 +1,11 @@
 ---
 title: 'Psykologins priming i kombination med användartester'
-subtitle: 'Pilottest'
+subtitle: 'Bilvården'
 date: '2017-05-01'
 image: 'bilvarden.png'
 case: 'Forskningsrapport'
+resultat: 'Pilottest'
+webbplatsen: 'testar'
 ---
 
 <div class="label-container">

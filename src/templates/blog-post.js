@@ -23,19 +23,21 @@ class BlogPostTemplate extends React.Component {
         />
         <div className="container ">
           <div className="hero_text">
-            <h1>{post.frontmatter.title}</h1>
+            <h1>{post.frontmatter.subtitle}</h1>
             <ul className="row">
               <li className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                 <p className="type-of-case-label">Case</p>
-                <p className="case-info-label">Pilottest</p>
+                <p className="case-info-label">{post.frontmatter.case}</p>
               </li>
               <li className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                 <p className="type-of-case-label">Resultat</p>
-                <p className="case-info-label">Forskningsrapport</p>
+                <p className="case-info-label">{post.frontmatter.resultat}</p>
               </li>
               <li className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                 <p className="type-of-case-label">Webbplatsen</p>
-                <p className="case-info-label">Prototyp</p>
+                <p className="case-info-label">
+                  {post.frontmatter.webbplatsen}
+                </p>
               </li>
             </ul>
           </div>
@@ -57,7 +59,7 @@ class BlogPostTemplate extends React.Component {
                   <div className="post-container">
                     <div className="post-card">
                       <h1>{post.frontmatter.title}</h1>
-                      <h3>{post.frontmatter.subtitle}</h3>
+                      {/* <h3>{post.frontmatter.subtitle}</h3> */}
                     </div>
                     <div
                       className="post_content "
@@ -109,6 +111,9 @@ export const pageQuery = graphql`
       frontmatter {
         title
         subtitle
+        case
+        resultat
+        webbplatsen
         date(formatString: "MMMM DD, YYYY")
         image {
           childImageSharp {

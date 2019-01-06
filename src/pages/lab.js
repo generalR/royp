@@ -34,7 +34,8 @@ class BlogIndex extends React.Component {
               </h2>
             </div>
           </div>
-          <div className="hero_arrow">
+
+          {/**          <div className="hero_arrow">
             <div className="hero_arrow_wrap">
               <svg
                 data-v-262420ea=""
@@ -49,7 +50,7 @@ class BlogIndex extends React.Component {
               </svg>
             </div>
           </div>
-
+*/}
           <section className="post-list">
             {posts.map(({ node }) => {
               const title = get(node, 'frontmatter.title') || node.fields.slug
