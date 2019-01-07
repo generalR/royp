@@ -8,11 +8,13 @@ resultat: ''
 webbplatsen: ''
 ---
 
-<p class="label-2">Case</p>
+<div class="label-container">
+<p class="label-1">Case</p>
 
 Denna essä skrev jag till masterkurs på Karlstad universitet. Den berör koncepten Mobile First och Responsiv design vilka båda är svåra begrepp att förstå för en novis person inom it. Jag reder ut vad de båda begreppen som författarna Luke Wroblewski och Ethan Marcotte beskriver i respektive böcker samt kommer med inspel på vad som saknas och hur koncepten kan förbättras. Den blev väldigt uppskattad och används nu i undervisningen på universitet.
 
-<p class="label-2">Tvetydiga koncept</p>
+</div>
+<p class="label-1">Tvetydiga koncept</p>
 
 ## Introduktion
 

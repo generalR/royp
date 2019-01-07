@@ -4,21 +4,23 @@ subtitle: 'Spot'
 date: '2015-08-01T22:12:03.284Z'
 image: 'spot.png'
 case: 'Designsprint'
+resultat: 'Spot'
+webbplatsen: ''
 ---
 
 <div class="label-container">
-<p class="label-1">Case</p>
+<h2 class="label-1">Case</h2>
 
-## En nya plats att träna på
+### En nya plats att träna på
 
 Iden till appen Spot uppkom i samband med en masterkurst på Karlstad universitet vari en uppgift bestod av att utforska och test ett nytt design koncept. Genom tre iterationer undersöker jag om de rekryterade testpersonerna upplever samma problem som jag gjorde. Nämligen att det är svårt och tidskrävande att i en ny stad eller land finna platser att träna på utomhus. Nedan följer en beskrivning av de tre designsprintar med tillhörande metoder för att generera krav.
 
   </div>
 
 <div class="label-container">
-<p class="label-2">Sprint 1</p>
+<h2 class="label-1">Sprint 1</h2>
 
-##Hur går användarna tillväga för att finna nya träningsplatser utomhus?
+###Hur går användarna tillväga för att finna nya träningsplatser utomhus?
 
 Det första steget i detta test var att testpersonerna fick visa testmoderatorn hur de idag gör när de söker efter platser att träna på. Vidare geonfördes en så kallad “walk through” i en hypotetisk app byggd ned Adobe Xd. Detta gjordes för att ge testpersonerna en mentalmodell av applikationen innan de trädde in i en fokusgrupp för att fritt diskutera ideer och förslag på tänkbara funktioner som skulle kunna ta plats i en framtida produkt.
 
@@ -33,9 +35,9 @@ Det första steget i detta test var att testpersonerna fick visa testmoderatorn 
 </div>
 
 <div class="label-container">
-<p class="label-3">Sprint 2</p>
+<h2 class="label-1">Sprint 2</h2>
 
-##Är funktionaliteten av värde för användaren?
+###Är funktionaliteten av värde för användaren?
 
 Det nästföljande användartest baserades på resultaten av det första testet vilket lade grunden till en ny prototyp utvecklades i Adobe Xd. Gränssnittet baserades på de förslag och ideer som har allra största chans att nå en slutgiltig produkt från föregående test. Ett användartest genomfördes på denna prototyp där syftet var att undersöka hur väl användargränssnittet hjälper användarna att utföra vanliga rutinuppgifter, som till exempel att kunna navigera till en plats att motionera på.
 
@@ -48,9 +50,9 @@ Det nästföljande användartest baserades på resultaten av det första testet 
   </div>
 
 <div class="label-container">
-<p class="label-4">Sprint 3</p>
+<h2 class="label-1">Sprint 3</h2>
 
-##Vilken information vill användaren egentligen se på en motionsplats?
+###Vilken information vill användaren egentligen se på en motionsplats?
 
 Detta sista användartestet i denna serie av tester har till syftet att undersöka vilken information användarna helst vill ha presenterad på en specifik motionsplats. Liksom i första användartestet planterades en mental modell hos testdeltagarna genom att en “walk through” genomfördes av ett tänkbart scenario som tar testpersonen till en motionsplats i appen.
 
@@ -64,9 +66,9 @@ Detta sista användartestet i denna serie av tester har till syftet att undersö
 </div>
 
 <div class="label-container">
-<p class="label-5">Lösningen</p>
+<h2 class="label-1">Lösningen</h2>
 
-##Spot - en plats att träna på.
+###Spot - en plats att träna på.
 
 Dessa tre sprintar resulterade visade
 
