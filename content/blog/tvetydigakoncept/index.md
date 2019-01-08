@@ -43,6 +43,7 @@ För att illustrera ett exempel presenterar jag nedan ett dagsaktuellt exempel p
 > _“Responsivitet är den nya standarden för alla hemsidor. Det är en teknik som är anpassad för våra kunder som surfar på olika platser, vid olika tider och med olika devicer.”_
 
 - Cross-device
+
 - Ett och samma CMS
 - Rekommenderat av google
 - Nöjdare kunder
