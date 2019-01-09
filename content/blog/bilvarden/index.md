@@ -1,5 +1,5 @@
 ---
-title: 'Psykologins priming i kombination med användartester'
+title: 'Blir resultatet bättre om deltagarna först blir primade vid användartester?'
 subtitle: 'Bilvården'
 date: '2017-05-01'
 image: 'bilvarden.png'
