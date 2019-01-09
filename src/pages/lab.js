@@ -71,7 +71,7 @@ class BlogIndex extends React.Component {
 
                     <div className="first-xs last-sm last-lg col-xs-12 col-sm-8 col-md-8 col-lg-8">
                       <Img
-                        className="eq"
+                        className="img-contain"
                         fluid={node.frontmatter.image.childImageSharp.fluid}
                       />
                     </div>

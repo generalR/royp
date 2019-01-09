@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter Blog',
-    author: 'Kyle Mathews',
-    description: 'A starter blog demonstrating what Gatsby can do.',
-    siteUrl: 'https://gatsby-starter-blog-demo.netlify.com/',
+    title: 'Interaktionsdesigner',
+    author: 'Roy Persson',
+    description: 'En portfolio sida',
+    siteUrl: 'https://royp.se',
     social: {
-      twitter: 'kylemathews',
+      twitter: '',
     },
   },
   plugins: [
@@ -48,12 +48,21 @@ module.exports = {
         //trackingId: `ADD YOUR TRACKING ID HERE`,
       },
     },
+    {
+    resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `open sans`,
+          `roboto\:300,400,400i,700` // you can also specify font weights and styles
+        ]
+      }
+    },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Interaktionsdesigner - Roy Persson`,
+        short_name: `Roy`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,

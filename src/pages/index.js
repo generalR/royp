@@ -37,10 +37,12 @@ class BlogIndex extends React.Component {
                   Hej, mitt namn är Roy. <br />
                   Jag har en examen i Interaktionsdesign från Karlstad
                   universitet och designar och bygger webbplatser med html, Css
-                  och Javascript. Den du surfar på nu är byggd med Gatsby JS
-                  Sedan Juni har jag också varit pappaledig till min 6 månaders
-                  dotter.
+                  och Javascript. Den du surfar på nu är byggd med JAMstacken och specifikt Gatsby JS.
                 </h2>
+                <Link to="/lab">
+                  <h3 id="logo">Projektsidan denna vägen -></h3>
+                </Link>
+
               </div>
             </div>
           </div>

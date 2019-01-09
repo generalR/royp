@@ -5,10 +5,14 @@ detta exempel rosa medium.muz.li/design-docs-6bb34589f7a9 . */
 :root {
   font-size: 10px;
 }
-
+.img-contain{
+  img{
+  object-fit: contain !important;
+}
+}
 html,
 body {
-  font-family: 'roboto', 'sans-serif';
+  font-family: 'roboto', 'open-sans';
   color: #111111;
   background: #f7f7f7;
 }
