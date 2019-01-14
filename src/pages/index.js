@@ -31,18 +31,36 @@ class BlogIndex extends React.Component {
           <div className="container">
             <div className="row start-sm start-md start-lg hero_text">
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-10 ">
-                <h1>Digital designer.</h1>
+                <h1>Digitaldesigner.</h1>
 
                 <h2>
                   Hej, mitt namn är Roy. <br />
                   Jag har en examen i Interaktionsdesign från Karlstad
                   universitet och designar och bygger webbplatser med html, Css
-                  och Javascript. Den du surfar på nu är byggd med JAMstacken och specifikt Gatsby JS.
+                  och Javascript. Den du surfar på nu är byggd med JAMstacken
+                  och specifikt Gatsby JS.
                 </h2>
-                <Link to="/lab">
-                  <h3 id="logo">Projektsidan denna vägen -></h3>
-                </Link>
 
+                <div className="projekt-link">
+                  <Link to="/lab">
+                    Projektsidan denna vägen{' '}
+                    <span className="hero_arrow">
+                      <span className="hero_arrow_wrap">
+                        <svg
+                          data-v-262420ea=""
+                          width="46"
+                          height="9"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M44.102 4l-2.444-2.445.009-1.405 4.325 4.325-4.38 4.38.01-1.423L44.101 5H.002V4z"
+                            fill-rule="evenodd"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

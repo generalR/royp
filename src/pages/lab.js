@@ -28,9 +28,8 @@ class BlogIndex extends React.Component {
               <h1>Projekt.</h1>
               <h2>
                 På den här sidan hittar du en blandning av de webbplatser jag
-                byggt tillsammans med projekt jag genomfört till några av de
-                texter jag skrivit som används i undervisningen på Karlstad
-                universitet.
+                byggt tillsammans med några projekt från skolan som jag tycker
+                är värda att lyfta fram.
               </h2>
             </div>
           </div>
@@ -59,13 +58,30 @@ class BlogIndex extends React.Component {
                   <Link className="row post-lab" to={node.fields.slug}>
                     <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                       <div className="card-content2">
-                        <span>{node.frontmatter.case}</span>
+                        <span className="case">{node.frontmatter.case}</span>
                         <h2
                           dangerouslySetInnerHTML={{
                             __html: title,
                           }}
                         />
-                        <h4>{node.frontmatter.subtitle}</h4>
+                        <h4>
+                          {node.frontmatter.subtitle}
+                          <span className="hero_arrow">
+                            <span className="hero_arrow_wrap lab-arrow">
+                              <svg
+                                data-v-262420ea=""
+                                width="46"
+                                height="9"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M44.102 4l-2.444-2.445.009-1.405 4.325 4.325-4.38 4.38.01-1.423L44.101 5H.002V4z"
+                                  fill-rule="evenodd"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </h4>
                       </div>
                     </div>
 
@@ -76,7 +92,7 @@ class BlogIndex extends React.Component {
                       />
                     </div>
                   </Link>
-                  <hr />
+                  <hr className="" />
                 </article>
               )
             })}

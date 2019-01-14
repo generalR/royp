@@ -23,6 +23,7 @@ body {
   height: 100%;
 
   h2 {
+    margin-bottom: 20px;
     font-size: 35px;
     margin: 0;
     padding: 0;
@@ -34,9 +35,9 @@ body {
     left: 0;
     margin: 0;
     font-size: 14px;
-    letter-spacing: 0.8px;
+    //letter-spacing: 0.8px;
   }
-  span {
+  .case {
     font-size: 16px;
     opacity: 0.7;
     margin-bottom: 20px;
@@ -117,7 +118,8 @@ h4 {
     font-size: 18px;
   }
 }
-.hero_arro {
+/*
+.hero_arrow {
   margin: 10px;
   height: 140px;
   width: 140px;
@@ -127,12 +129,18 @@ h4 {
   z-index: 9;
   overflow: hidden;
 }
+*/
+
 .hero_arrow_wrap {
+  margin-left: 20px;
   overflow: hidden;
   padding-top: calc(15px - 0px);
-  position: absolute;
+  // position: absolute;
   height: calc(100% - 20px);
   left: 15%;
+}
+.lab-arrow {
+  margin-left: 0;
 }
 svg {
   -ms-transform: rotate(0deg); /* IE 9 */
@@ -205,12 +213,12 @@ header {
   margin-left: 0px;
 }
 
-.se_mer_link {
-  text-align: right;
+.projekt-link {
+  //text-align: right;
   margin-top: 50px;
   max-width: 650px;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 300;
   a {
     color: #020203;
     text-decoration: none;
@@ -242,10 +250,14 @@ header {
 }
 
 .post-list {
+  hr {
+    margin-bottom: 50px;
+    opacity: 0.3;
+  }
   .post-lab {
-    padding-bottom: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 50px;
     // border-bottom: 1px #dddfdf solid;
+
     .card-content2 {
       h1 {
         font-size: 20px;
@@ -482,6 +494,9 @@ header {
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
+  .lab-arrow {
+    top: 50px;
+  }
   .post {
     .post-container {
       .post-card {
@@ -515,7 +530,8 @@ header {
       font-size: 14px;
       letter-spacing: 0.8px;
     }
-    span {
+
+    .case {
       font-size: 13px;
       opacity: 0.7;
       margin-bottom: 20px;
@@ -729,7 +745,7 @@ header {
     }
   }
   .card-content2 {
-    span {
+    .case {
       font-size: 13px;
       opacity: 0.7;
       margin-top: 15px;
