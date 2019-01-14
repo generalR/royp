@@ -1,11 +1,11 @@
 ---
 title: 'Tvetydiga koncept i en kravspecifikation'
-subtitle: 'Mobile First And Responsive Design'
+subtitle: ''
 date: '2015-07-28T22:40:32.169Z'
 image: 'tve.png'
-case: 'Debattartikel'
-resultat: ''
-webbplatsen: ''
+case: 'Essä - Mobile First And Responsive Design'
+resultat: 'Denna text används i undervisningen på Karlstad universitet'
+webbplatsen: '-'
 ---
 
 <div class="label-container">

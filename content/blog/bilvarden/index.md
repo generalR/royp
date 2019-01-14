@@ -1,9 +1,9 @@
 ---
 title: 'Blir resultatet bättre om deltagarna först blir primade vid användartester?'
-subtitle: 'Bilvården'
+subtitle: ''
 date: '2017-05-01'
 image: 'bilvarden.png'
-case: 'Forskningsrapport'
+case: 'Forskningsrapport - Bilvården'
 resultat: 'Pilottest'
 webbplatsen: 'testar'
 ---

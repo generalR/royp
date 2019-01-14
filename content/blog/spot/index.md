@@ -1,9 +1,9 @@
 ---
 title: 'Att utforska och testa ett nytt designkoncept'
-subtitle: 'Spot'
+subtitle: ''
 date: '2015-08-01T22:12:03.284Z'
-image: 'spot.png'
-case: 'Designsprint'
+image: 'spot.jpg'
+case: 'Designsprint - Spot'
 resultat: 'Spot'
 webbplatsen: ''
 ---

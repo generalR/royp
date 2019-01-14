@@ -76,6 +76,7 @@ class BlogIndex extends React.Component {
                       />
                     </div>
                   </Link>
+                  <hr />
                 </article>
               )
             })}
