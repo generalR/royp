@@ -1,7 +1,7 @@
 ---
 title: 'Att utforska och testa ett nytt designkoncept'
 subtitle: ''
-date: '2015-08-01T22:12:03.284Z'
+date: '2018-08-01T22:12:03.284Z'
 image: 'spot.jpg'
 case: 'Designsprint - Spot'
 resultat: 'Spot'
@@ -18,11 +18,11 @@ Iden till appen Spot uppkom i samband med en masterkurst på Karlstad universite
   </div>
 
 <div class="label-container">
-<h2 class="label-1">Sprint 1</h2>
+<h2 class="label-1">Iteration 1</h2>
 
-###Hur går användarna tillväga för att finna nya träningsplatser utomhus?
+### Hur går användarna tillväga för att finna nya träningsplatser utomhus?
 
-Det första steget i detta test var att testpersonerna fick visa testmoderatorn hur de idag gör när de söker efter platser att träna på. Vidare geonfördes en så kallad “walk through” i en hypotetisk app byggd ned Adobe Xd. Detta gjordes för att ge testpersonerna en mentalmodell av applikationen innan de trädde in i en fokusgrupp för att fritt diskutera ideer och förslag på tänkbara funktioner som skulle kunna ta plats i en framtida produkt.
+Det första steget i detta test var att obeservera verkligheten. Således fick testpersonerna visa testmoderatorn hur de idag gör när de söker efter platser att träna på. Vidare geonfördes en så kallad “walk through” i en hypotetisk app byggd med Adobe Xd. Detta gjordes för att ge testpersonerna en mentalmodell av applikationen innan de trädde in i en fokusgrupp för att fritt diskutera ideer och förslag på tänkbara funktioner som skulle kunna ta plats i en framtida produkt.
 
 ###Metoder
 
@@ -35,7 +35,7 @@ Det första steget i detta test var att testpersonerna fick visa testmoderatorn 
 </div>
 
 <div class="label-container">
-<h2 class="label-1">Sprint 2</h2>
+<h2 class="label-1">Iteration 2</h2>
 
 ###Är funktionaliteten av värde för användaren?
 

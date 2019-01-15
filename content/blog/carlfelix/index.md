@@ -1,7 +1,7 @@
 ﻿---
 title: 'En ny webbplats och CMS'
 subtitle: ''
-date: '2017-06-01'
+date: '2019-06-01'
 image: 'cf_header.png'
 case: 'Webbplats - Carl felix Assistansassist'
 resultat: 'Design och CMS'
